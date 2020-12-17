@@ -1,6 +1,8 @@
 //Java Script
 $(document).ready(() => {
 
+    console.log('V1');
+
     var type_page = sessionStorage.getItem('TYPE_PAGE');
 
     if (window.location.pathname == '/deliveryinfo'){
